@@ -4,7 +4,8 @@ async function generate() {
 
   responseDiv.innerText = "Generating...";
 
-  const res = await fetch("https://gemini-backend.onrender.com/generate", {
+
+  const res = await fetch("https://zaynchat.onrender.com/generate", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
